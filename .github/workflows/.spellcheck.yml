@@ -1,0 +1,11 @@
+spellchecker: aspell
+matrix:
+- name: Text Files
+  aspell:
+      lang: de
+  dictionary:
+    wordlists:
+    - .wordlist.txt
+  sources:
+  - "**/*.txt"
+  - "**/*.md"
