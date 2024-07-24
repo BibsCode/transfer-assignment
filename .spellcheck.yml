@@ -2,7 +2,7 @@ spellchecker: aspell
 matrix:
 - name: Text Files
   aspell:
-      lang: de
+      lang: en
   dictionary:
     wordlists:
     - .wordlist.txt
